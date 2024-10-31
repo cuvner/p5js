@@ -23,7 +23,10 @@ project-folder/
 ## Prerequisites
 
 - **Node.js**: Download and install Node.js from [https://nodejs.org](https://nodejs.org).
-- **TouchOSC or another OSC client** (if you want to send OSC messages).
+- **TouchOSC access some phone sensors too. One time cost of £14 or another OSC client** [TouchOsc](https://apps.apple.com/us/app/touchosc/id1569996730) (if you want to send OSC messages).
+
+  <img width="997" alt="Screenshot 2024-10-31 at 18 16 48" src="https://github.com/user-attachments/assets/3d7bb9ec-3a75-43ef-8906-ba0fd4179f21">
+
 
 ## Setup Instructions
 
@@ -72,6 +75,8 @@ project-folder/
 ## Configuring an OSC Client (e.g., TouchOSC)
 
 If you want to control the p5.js sketch with OSC messages:
+
+![IMG_1AB63D273DA2-1](https://github.com/user-attachments/assets/bf8614d5-69c5-4ec8-8441-06c1272adf95)
 
 1. **Set the Host IP**: In TouchOSC, set the **Host** to the IP address of the computer running the server.
 2. **Set the Outgoing Port**: Set the **Outgoing Port** to `57121` to send OSC messages to the server.
