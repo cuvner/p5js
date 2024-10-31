@@ -60,7 +60,14 @@ Clone this repo and run npm to get required libraries.
 
 2. **Access the Web Page**
 
-   Open a browser on any device connected to the same network and navigate to `http://<your-ip>:8081` (replace `<your-ip>` with the IP address printed by the server). This will load the p5.js sketch in `index.html`.
+CMD/CTRL click the ip-addr link to open webpage
+``` terminal
+WebSocket server running on ws://<your IP>:8081
+Web server running. Access it at one of the following URLs:
+  http://192.168.8.238:8081
+Listening for OSC over UDP on port 57121
+A WebSocket connection has been established!
+```
 
 ## Configuring an OSC Client (e.g., TouchOSC)
 
