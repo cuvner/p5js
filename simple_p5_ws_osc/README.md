@@ -81,6 +81,9 @@ If you want to control the p5.js sketch with OSC messages:
 
 Now, you should be able to control the p5.js sketch from TouchOSC by sending OSC messages to the specified addresses (e.g., `/1/fader1`).
 
+<img width="1222" alt="Screenshot 2024-10-31 at 19 07 49" src="https://github.com/user-attachments/assets/90473b84-b8ed-4c7c-8cb9-acaac4cac580">
+
+
 ## Customizing the p5.js Sketch
 
 The p5.js sketch is in `web/sketch.js`. You can open this file in any text editor and modify it as needed to change the behavior, visuals, and OSC message handling.
