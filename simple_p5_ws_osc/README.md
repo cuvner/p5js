@@ -34,7 +34,7 @@ project-folder/
 
 Clone this repo and run npm to get required libraries.
 
-	$ git clone https://github.com/genekogan/p5js-osc
+	$ git clone https://github.com/cuvner/p5js.git
 	$ cd p5js-main/simple_p5_ws_osc
 	$ npm install
 
