@@ -25,28 +25,18 @@ project-folder/
 - **Node.js**: Download and install Node.js from [https://nodejs.org](https://nodejs.org).
 - **TouchOSC access some phone sensors too. One time cost of £14 or another OSC client** [TouchOsc](https://apps.apple.com/us/app/touchosc/id1569996730) (if you want to send OSC messages).
 
+- **Android Users** Alternatives however untested [Google play app](https://play.google.com/store/apps/details?id=com.ffsmultimedia.osccontroller&hl=en_GB)
+
   <img width="997" alt="Screenshot 2024-10-31 at 18 16 48" src="https://github.com/user-attachments/assets/3d7bb9ec-3a75-43ef-8906-ba0fd4179f21">
 
 
 ## Setup Instructions
 
-1. **Download or Clone the Repository**
+Clone this repo and run npm to get required libraries.
 
-   You can download the project folder as a ZIP file or clone it from the repository. Extract the ZIP file if you downloaded it.
-
-2. **Navigate to the Project Directory**
-
-   Open a terminal and navigate to the project directory:
-   ```bash
-   cd project-folder
-   ```
-
-3. **Install Dependencies**
-
-   Run the following command to install all required Node.js packages:
-   ```bash
-   npm install
-   ```
+	$ git clone https://github.com/genekogan/p5js-osc
+	$ cd p5js-main/simple_p5_ws_osc
+	$ npm install
 
 ## Running the Project
 
