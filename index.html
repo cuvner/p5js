@@ -17,6 +17,12 @@
         h1 {
             margin-top: 20px;
         }
+        .description {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.1em;
+        }
         .sketch-container {
             margin: 20px 0;
             border: 2px solid #333;
@@ -37,25 +43,34 @@
             background-color: #333;
             color: #fff;
         }
+        .repo-link {
+            margin: 20px;
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
     <h1>p5.js Sketches Showcase</h1>
 
-    <!-- Embed p5.js sketch from p5.js editor -->
+    <!-- Description about creative coding -->
+    <div class="description">
+        <p>Welcome to the p5.js Sketches Showcase! This collection of projects explores the concept of creative coding, a practice focused on rapid, iterative development of visual outputs. Creative coding is all about experimentation, quick prototyping, and seeing immediate, often beautiful results from small changes in code. Each of these sketches is designed with visual impact in mind, demonstrating the power of code as a creative tool.</p>
+        <p class="repo-link">Download the projects and explore the code on <a href="https://github.com/cuvner/p5js" target="_blank">GitHub</a>.</p>
+    </div>
+
+    <!-- Embed p5.js sketches -->
     <div class="sketch-container">
         <div class="sketch-title">AR Hackathon Project</div>
         <iframe src="https://editor.p5js.org/cuvner/full/rdhQH4Obv"></iframe>
     </div>
 
-    <!-- Example for additional sketches -->
     <div class="sketch-container">
         <div class="sketch-title">Dino Face Track</div>
         <iframe src="https://cuvner.github.io/p5js/faceMesh/"></iframe>
     </div>
 
     <div class="sketch-container">
-        <div class="sketch-title">Touch Osc - P5js Osc></div>
+        <div class="sketch-title">Touch Osc - P5js Osc</div>
         <iframe src="https://editor.p5js.org/cuvner/full/diXB1MtYE"></iframe>
     </div>
 
