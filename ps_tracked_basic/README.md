@@ -19,6 +19,19 @@ This project creates an interactive particle system that uses face-tracking to f
 
 ---
 
+### Download the Full Project
+
+For convenience, you can download the entire project as a ZIP file:
+[Download Full Project](https://github.com/cuvner/p5js/blob/main/ps_tracked_basic/ps_tracked_basic_2024_11_05_08_40_35.zip?raw=true)
+
+Alternatively, you can clone the repository with Git:
+
+```bash
+git clone https://github.com/cuvner/p5js.git
+```
+
+---
+
 ### Step-by-Step Guide
 
 #### Step 1: Set Up Face Tracking
