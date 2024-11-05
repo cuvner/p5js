@@ -1,7 +1,7 @@
 
 # Face-Tracking Particle System with Attraction and Repulsion
 
-This project creates an interactive particle system that uses face-tracking to follow the midpoint between the eyes and applies attraction and repulsion forces between particles. Built using p5.js and ml5.js libraries, this system dynamically generates particles based on face tracking data and smoothly follows the eyes' center.
+This project creates an interactive particle system that uses face-tracking to follow the midpoint between the eyes and applies attraction and repulsion forces between particles. Built using p5.js and ml5.js libraries, this system dynamically generates particles based on face tracking data and smoothly follows the eyes' center. I have based this on project by [Jason Lee](https://openprocessing.org/sketch/2427952) 
 
 ---
 
