@@ -37,7 +37,7 @@ git clone https://github.com/cuvner/p5js.git
    - Open the [p5.js Web Editor](https://editor.p5js.org/) or your preferred environment.
    - Include ml5 library:
      ```html
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/ml5/0.6.0/ml5.min.js"></script>
+     <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
      ```
 
 2. **Define Global Variables**  
